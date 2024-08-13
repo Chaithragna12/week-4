@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+body{
+    background-image: url(https://img.freepik.com/free-vector/flat-design-apps-fitness-tracker-man-running_23-2148527078.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;  
+    background-color: rgb(81, 149, 176);
+
+}
+.container{
+    border: 1px solid rgb(81, 149, 176);
+     border-radius: 10px; 
+    width: 35rem;
+    height: 30rem;
+    text-align: center;
+    margin: 10rem 50rem;
+    background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20190223/ourmid/pngtree-dynamic-fashion-fitness-peoples-propaganda-background-design-boardfitness-vipgymfitness-actionpromotional-image_88068.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;  
+}
+h1{
+  color: navy;
+}
+.parent1{
+    margin-top: 2rem;
+    padding: 20px;
+}
+.p1{
+    padding-bottom: 20px;
+}
+#workoutName,#filterName{
+    width: 6rem;
+    height: 3vh;
+}
+#workoutDate, #filterDate{
+    width: 6.3rem;
+    height: 3vh;
+}
+button{
+    height: 3vh;
+}
+button:hover{
+    box-shadow: 1px 1px 3px #eee;
+}
+

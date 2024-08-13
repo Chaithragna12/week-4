@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Workout Tracker</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Workout Tracker</h1>
+        <div class="parent1">
+            <h2 class="p1">Add workout</h2>
+            <input type="text" placeholder="Workout Name" id="workoutName">
+            <input type="date" id="workoutDate">
+            <button onclick="addWorkout()">Add workout</button>
+        </div>
+        <div class="parent1">
+            <h2 class="p1">Filter workout</h2>
+            <input type="text" placeholder="Filter Workouts" id="filterName">
+            <input type="date" id="filterDate">
+            <button onclick="filterWorkouts()">Add workout</button>
+            <div id="workouts"></div>
+        </div>
+    </div>
+   
+</body>
+</html>
+
